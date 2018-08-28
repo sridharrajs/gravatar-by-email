@@ -11,7 +11,7 @@ To Install
 
 Using node package manager
 
-###Example
+### Example
     npm install nodejs-gravatar
 
 
@@ -22,13 +22,13 @@ Simply add the following require statement to import the module and then call th
 
 ### Example
     var gravatar = require('nodejs-gravatar');
-    newUser.avatar = gravatar.imageUrl('test@gmail.com);
+    newUser.avatar = gravatar.imageUrl('test@gmail.com');
 
 
 You can also specify the size of the image with the following
 
-###Example
+### Example
     newUser.avatar = gravatar.imageUrl('test@gmail.com', { "size": "200" });
 
-A valid size is between 1 - 2048.
+A valid size is between `1` - `2048`.
 
